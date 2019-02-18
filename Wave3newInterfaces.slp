@@ -1,0 +1,4477 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 8,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000023",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000016",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000019",
+            "src_view_id": "output0"
+        },
+        "link105": {
+            "dst_id": "11111111-1111-1111-1111-000000000019",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000010",
+            "src_view_id": "output0"
+        },
+        "link107": {
+            "dst_id": "11111111-1111-1111-1111-00000000001a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000016",
+            "src_view_id": "output0"
+        },
+        "link110": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000001a",
+            "src_view_id": "output0"
+        },
+        "link112": {
+            "dst_id": "11111111-1111-1111-1111-00000000001d",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_view_id": "output0"
+        },
+        "link113": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output1"
+        },
+        "link117": {
+            "dst_id": "11111111-1111-1111-1111-000000000010",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000018",
+            "src_view_id": "output0"
+        },
+        "link118": {
+            "dst_id": "11111111-1111-1111-1111-000000000018",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000023",
+            "src_view_id": "output0"
+        },
+        "link119": {
+            "dst_id": "11111111-1111-1111-1111-000000000022",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000d",
+            "src_view_id": "output0"
+        },
+        "link120": {
+            "dst_id": "11111111-1111-1111-1111-00000000000d",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link121": {
+            "dst_id": "11111111-1111-1111-1111-000000000012",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000001d",
+            "src_view_id": "output0"
+        },
+        "link122": {
+            "dst_id": "11111111-1111-1111-1111-00000000001e",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000012",
+            "src_view_id": "output0"
+        },
+        "link123": {
+            "dst_id": "11111111-1111-1111-1111-00000000000c",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output101"
+        },
+        "link124": {
+            "dst_id": "11111111-1111-1111-1111-000000000021",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000c",
+            "src_view_id": "output0"
+        },
+        "link125": {
+            "dst_id": "11111111-1111-1111-1111-00000000000b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output102"
+        },
+        "link127": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output103"
+        },
+        "link128": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output104"
+        },
+        "link129": {
+            "dst_id": "11111111-1111-1111-1111-00000000000e",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output0"
+        },
+        "link130": {
+            "dst_id": "11111111-1111-1111-1111-000000000013",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000e",
+            "src_view_id": "output0"
+        },
+        "link131": {
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000013",
+            "src_view_id": "output0"
+        },
+        "link132": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link133": {
+            "dst_id": "11111111-1111-1111-1111-000000000011",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link134": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000011",
+            "src_view_id": "output0"
+        },
+        "link135": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output105"
+        },
+        "link136": {
+            "dst_id": "11111111-1111-1111-1111-00000000001b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output0"
+        },
+        "link137": {
+            "dst_id": "11111111-1111-1111-1111-000000000014",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000001b",
+            "src_view_id": "output0"
+        },
+        "link138": {
+            "dst_id": "11111111-1111-1111-1111-00000000001c",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000014",
+            "src_view_id": "output0"
+        },
+        "link139": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output106"
+        },
+        "link140": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link142": {
+            "dst_id": "11111111-1111-1111-1111-00000000001f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_view_id": "output0"
+        },
+        "link143": {
+            "dst_id": "11111111-1111-1111-1111-000000000015",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000001f",
+            "src_view_id": "output0"
+        },
+        "link144": {
+            "dst_id": "11111111-1111-1111-1111-000000000020",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000015",
+            "src_view_id": "output0"
+        },
+        "link147": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-00000000001e",
+            "src_view_id": "output0"
+        },
+        "link149": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000021",
+            "src_view_id": "output0"
+        },
+        "link150": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-000000000020",
+            "src_view_id": "output0"
+        },
+        "link151": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input103",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link153": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input105",
+            "src_id": "11111111-1111-1111-1111-00000000001c",
+            "src_view_id": "output0"
+        },
+        "link154": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input106",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link157": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000022",
+            "src_view_id": "output0"
+        },
+        "link158": {
+            "dst_id": "11111111-1111-1111-1111-000000000017",
+            "dst_view_id": "input104",
+            "src_id": "11111111-1111-1111-1111-00000000000f",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "ljupcho.machkovski@interworks.com.mk"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000017_output0": {
+                "label": {
+                    "value": "Join - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 10,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "output101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "output102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "output103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "output104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    },
+                    "output105": {
+                        "dx_int": 0,
+                        "dy_int": 6,
+                        "rot_int": 0
+                    },
+                    "output106": {
+                        "dx_int": 0,
+                        "dy_int": 7,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 10,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 8,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 9,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000b": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000c": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000d": {
+                "error": {},
+                "grid_x_int": 10,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000e": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 8,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000f": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 8,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000010": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000011": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000012": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000013": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 8,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000014": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 9,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000015": {
+                "error": {},
+                "grid_x_int": 12,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000016": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000017": {
+                "error": {},
+                "grid_x_int": 15,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "input102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "input103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "input104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    },
+                    "input105": {
+                        "dx_int": 0,
+                        "dy_int": 6,
+                        "rot_int": 0
+                    },
+                    "input106": {
+                        "dx_int": 0,
+                        "dy_int": 7,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000018": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000019": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000001a": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000001b": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 9,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000001c": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 9,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000001d": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000001e": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000001f": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000020": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000021": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000022": {
+                "error": {},
+                "grid_x_int": 11,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000023": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "AMD_UK_ABS_Payroll_Main_17092018_5249.xml"
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Additional_Information"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Additional_Information']['pi:Preferred_First_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Preferred_First_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Step_Name_Ref_ID']\") ? $['pi:Additional_Information']['pi:Step_Name_Ref_ID'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Step_Name_Ref_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Home_Landline_International_Phone_Code']\") ? $['pi:Additional_Information']['pi:Home_Landline_International_Phone_Code'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Home_Landline_International_Phone_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Home_Landline_Area_Code']\") ? $['pi:Additional_Information']['pi:Home_Landline_Area_Code'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Home_Landline_Area_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Home_Landline_Phone_Number']\") ? $['pi:Additional_Information']['pi:Home_Landline_Phone_Number'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Home_Landline_Phone_Number"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Home_Mobile_International_Phone_Code']\") ? $['pi:Additional_Information']['pi:Home_Mobile_International_Phone_Code'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Home_Mobile_International_Phone_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Home_Mobile_Area_Code']\") ? $['pi:Additional_Information']['pi:Home_Mobile_Area_Code'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Home_Mobile_Area_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Home_Mobile_Phone_Number']\") ? $['pi:Additional_Information']['pi:Home_Mobile_Phone_Number'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Home_Mobile_Phone_Number"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Additional_Information']['pi:Company_Reference_ID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Company_Reference_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Additional_Information']['pi:Company_Description']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Company_Description"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Additional_Information']['pi:Location_Description']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Location_Description"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Supervisory_Organisation_Description']\") ? $['pi:Additional_Information']['pi:Supervisory_Organisation_Description'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Supervisory_Organisation_Description"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Additional_Information']['pi:Pay_Group_Code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Additional_Information']['pi:Pay_Group_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Additional_Information']['pi:Grade_Profile_Description']\") ? $['pi:Additional_Information']['pi:Grade_Profile_Description'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Grade_Profile_Description"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output101": {
+                        "label": {
+                            "value": "output2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output102": {
+                        "label": {
+                            "value": "output3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output103": {
+                        "label": {
+                            "value": "output4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output104": {
+                        "label": {
+                            "value": "output5"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output105": {
+                        "label": {
+                            "value": "output6"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output106": {
+                        "label": {
+                            "value": "output7"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 106
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Earnings_Deductions Final"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Earnings_Deductions_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Operation']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Operation"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty('pi:Position_ID') ? ['pi:Position_ID'] : ''"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Position_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Code_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Code_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Amount']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Amount"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Compensation_Effective_Date']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Compensation_Effective_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Frequency']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Frequency"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Earnings_deductions"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Earnings_Deductions'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['pi:Earnings_Deductions']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Employee']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Additional_Information']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Earnings_Deductions']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Identifier']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Payment_Election']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Personal']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000b": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000b",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Position']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000c": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000c",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Status']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000d": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000d",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$.hasOwnProperty(\"['pi:Summary']\")"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000e": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000e",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Identifier"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Identifier'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['pi:Identifier']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000f": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000f",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Identifier Final"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Identifier_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Operation']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Operation"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Identifier_Type']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Identifier_Type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Identifier_Value']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Identifier_Value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Description']\") ? $['pi:Description'] : ''"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Description"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000010": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000010",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": []
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$Pay_Gruop"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000011": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000011",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter Earnings_Deductions"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Pay_Group_Count"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$['pi:Earnings_Deductions']"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000012": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000012",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter First_Address_Line_Data"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Pay_Group_Count"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$First_Name"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Middle_Name"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Last_Name"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Title"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Gender"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Birth_Date"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$First_Municipality"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$First_Region"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$First_Postal_Code"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$First_Email_Address"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Second_Email_Address"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$First_Address_Line_Data"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000013": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000013",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter Identifier"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Pay_Group_Count"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$['pi:Identifier']"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000014": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000014",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter Identifier"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Pay_Group_Count"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$['pi:Payment_Election']"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000015": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000015",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter Position"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$Pay_Group_Count"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Employee_Count"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$['pi:Position']"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000016": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000016",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$['pi:Header']"
+                                }
+                            },
+                            {
+                                "includePath": {
+                                    "value": "$Pay_Group_Count"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$Employee"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000017": {
+            "class_id": "com-snaplogic-snaps-transform-multijoin",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000017",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Join"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "input2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input102": {
+                        "label": {
+                            "value": "input3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input103": {
+                        "label": {
+                            "value": "input4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input104": {
+                        "label": {
+                            "value": "input5"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input105": {
+                        "label": {
+                            "value": "input6"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input106": {
+                        "label": {
+                            "value": "input7"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "joinPaths": {
+                        "value": [
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input1"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input2"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input3"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input4"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input5"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input6"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            },
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                },
+                                "rightInputView": {
+                                    "value": "input7"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$Employee_Count"
+                                }
+                            }
+                        ]
+                    },
+                    "joinType": {
+                        "value": "Outer"
+                    },
+                    "noMatchData": {
+                        "value": false
+                    },
+                    "nullGreater": {
+                        "value": false
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "sortedStreams": {
+                        "value": "Unsorted"
+                    }
+                },
+                "view_serial": 106
+            }
+        },
+        "11111111-1111-1111-1111-000000000018": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000018",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Payroll_Extract_Employees']['pi:PayGroup'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "Pay_Gruop"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000019": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000019",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Employee'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Header']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['pi:Header']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001a": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper2"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001b": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001b",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Payment_Election"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Payment_Election'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['pi:Payment_Election']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001c": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001c",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Payment_Election Final"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Payment_Election_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Operation']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Operation"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Account_Number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Account_Number"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"['pi:Roll_Number']\") ? $['pi:Roll_Number'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Roll_Number"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Bank_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Bank_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Bank_ID_Number']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Bank_ID_Number"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001d": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001d",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Personal"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:First_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"['pi:Personal']['pi:Middle_Name']\") ? $['pi:Personal']['pi:Middle_Name'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Middle_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:Last_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Last_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:Title']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Title"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:Gender']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Gender"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:Birth_Date']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Birth_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Personal']['pi:First_Address_Line_Data'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Address_Line_Data"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:First_Municipality']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Municipality"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"['pi:Personal']['pi:First_Region']\") ? $['pi:Personal']['pi:First_Region'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Region"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Personal']['pi:First_Postal_Code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Postal_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"['pi:Personal']['pi:First_Email_Address']\") ? $['pi:Personal']['pi:First_Email_Address'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Email_Address"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"['pi:Personal']['pi:Second_Email_Address']\") ? $['pi:Personal']['pi:Second_Email_Address'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Second_Email_Address"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001e": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001e",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Personal Final"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$First_Name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Middle_Name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Middle_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Last_Name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Last_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Title"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Title"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Gender"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Gender"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Birth_Date"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Birth_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Address_Line_Data_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['@pi:Type']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$@pi:Type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['@pi:Label']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$@pi:Label"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['$']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Address_Line_Data"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$First_Municipality"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Municipality"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$First_Region"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Region"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$First_Postal_Code"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Postal_Code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$First_Email_Address"
+                                        },
+                                        "targetPath": {
+                                            "value": "$First_Email_Address"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Second_Email_Address"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Second_Email_Address"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000001f": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000001f",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Position"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "sl.ensureArray($['pi:Position'])"
+                                        },
+                                        "targetPath": {
+                                            "value": "$['pi:Position']"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000020": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000020",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Position Final"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Operation']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Operation"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Position_ID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Position_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Primary_Job']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Primary_Job"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Business_Title']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Business_Title"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Worker_Type']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Worker_Type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Position_Time_Type']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Position_Time_Type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Scheduled_Weekly_Hours']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Scheduled_Weekly_Hours"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Default_Weekly_Hours']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Default_Weekly_Hours"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Pay_Rate_Type']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Rate_Type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Total_Annual_Base_Pay']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Total_Annual_Base_Pay"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Organization_One']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Organization_One"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Organization_Two']\") ? $['pi:Organization_Two'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Organization_Two"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Organization_Three']\") ? $['pi:Organization_Three'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Organization_Three"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Work_Shift']\") ? $['pi:Work_Shift'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Work_Shift"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Business_Site']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Business_Site"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Business_Site_Postal_Code']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Business_Site_Postal_Code"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000021": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000021",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Status"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Status']['pi:Staffing_Event']\") ? $['pi:Status']['pi:Staffing_Event'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Staffing_Event"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Status']['pi:Staffing_Event_Date']\") ? $['pi:Status']['pi:Staffing_Event_Date']: \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Staffing_Event_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Status']['pi:Hire_Date']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Hire_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Status']['pi:Hire_Reason']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Hire_Reason"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Status']['pi:Continuous_Service_Date']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Continuous_Service_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Status']['pi:Termination_Date']\") ? $['pi:Status']['pi:Termination_Date']: \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Termination_Date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$.hasOwnProperty(\"$['pi:Status']['pi:Primary_Termination_Reason']\") ? $['pi:Status']['pi:Primary_Termination_Reason'] : \"\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$Primary_Termination_Reason"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000022": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000022",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Summary"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Pay_Group_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Employee_Count"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_Count"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Employee_ID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Employee_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Payroll_Company_ID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Payroll_Company_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Payroll_Company_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Payroll_Company_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Pay_Group_ID']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_ID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Pay_Group_Name']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Pay_Group_Name"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$['pi:Summary']['pi:Contain_Corrections_or_Rescinds']"
+                                        },
+                                        "targetPath": {
+                                            "value": "Contain_Corrections_or_Rescinds"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000023": {
+            "class_id": "com-snaplogic-snaps-transform-xmlparser",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000023",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "XML Parser"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "SplitterExpression": {
+                        "value": null
+                    },
+                    "matchDataTypes": {
+                        "value": false
+                    },
+                    "namespaceContext": {
+                        "value": []
+                    },
+                    "schema": {
+                        "expression": false,
+                        "value": ""
+                    },
+                    "validate": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

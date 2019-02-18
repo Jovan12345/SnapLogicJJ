@@ -1,0 +1,98 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-sqlserverdatabaseaccount",
+    "class_version": 3,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SQLtestAccount"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": [
+                            {
+                                "urlPropertyName": {
+                                    "value": "selectMethod"
+                                },
+                                "urlPropertyValue": {
+                                    "value": "cursor"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "TestingSQL"
+                    },
+                    "hostname": {
+                        "value": "169.254.69.87"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                    },
+                    "password": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "LtM5yY74ee5lkcblc9rFmg==",
+                        "sym_key": "UVhvY3C1/ejZXCF+fmKg/N0ZkpYwdEIkuy3u/ETJiFy5+d9UALYHKRQ9QRDe/N99B3zFOkensnFvvtA0Q6gHZtJEXgatBXwOCBu9YVUaDeaHIo8I4XLI1AKUwafEG6tXQxpiZpI6lLY1RFyH9m55O8ZLqW4tLzbC2Sia5wC3AthXAj/16vJiM1XDdQyWK8D1ML/4UHHpYj4aZHLizdw+JnpktQDjMGAvOUN6SMi0arJdQyXnQrahoNYZuDkqYkjzBRxZyu/cG+uKs0aIx/xy+cW4WP1MGQzd2fsULYaqlEK5bAL2fTOVAywCyiFgI55NS7axACAiN402+nPstfTSsQ==",
+                        "value": "jXORboI1iVIj6nUNs1G5OA=="
+                    },
+                    "portNumber": {
+                        "value": 50417
+                    },
+                    "username": {
+                        "value": null
+                    },
+                    "version": {
+                        "value": "SQLSERVER2008"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-mysqldatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Partners"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Wave3TestAccount"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "AuthenticationMode": {
+                        "value": "Password"
+                    },
+                    "PassPhrase": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "UPq7W/La52RtGQnZiAHF4g==",
+                        "sym_key": "m2JQdUIm++u7ecNev3Pg9PwUj5LPBOoZ9s3yk51IRp61LK+uTeaYe8lpwAAEXxi93FKzU5uxirx2IOUmD2XhBe4oVWXUgZU0ePJ3k7DXXFYcd9m4ELbdn+bGJuOU6OqUHgzq8ubkrSPy0bPMr2KXKq7/i8pD4Ic2p4LlhkMYlm4zLupPM6Ba0po9bp+5Fem3M9GUJ7KcB90USuzW2JR6EE1SsmPZxS11MOYAvC5WrCV0awknMZrej15+tJ4y/LqNit/sLI+RFS9kYlOiV1E8pb6cBjr7xTVI72hI/bHrc8S1pZemukNLtN3SrRHhMcUuhnDCNtxNIJIsSsX9/OlOnQ==",
+                        "value": "6IU+Dz9VMO4t0dQerOglJA=="
+                    },
+                    "databaseName": {
+                        "value": "sql7258279"
+                    },
+                    "hostname": {
+                        "value": "sql7.freemysqlhosting.net"
+                    },
+                    "keyAlias": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "keyStoreURL": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "keystorePassword": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "98I8d+Ed2LfOgREAELi6QA==",
+                        "sym_key": "kPewVl3/C6f35CaKqKSMRGEBOJ37Y3WihIpYRnHIfptdlZZtbcju8h86HTZhlswhG2FfVhsL99soU+VjectT8IA0D02WkYKcqruDqdUFdXS5WVQrKcdsJaG4465Tln0lOF2nq+ZkwgUHzxz1nrZiIg4ONfPffRQw4MUan/ctepqBd03JxnqCUIoHxxjeggm/QprQqfjP5oqSn68jSxLSZwmDIFSLEolU+9dxH4euu62fMI64Jm69Y2azhlcAiCSWple/ou/1MOZygEOjoPft4zCuiMOePjtAvHkfe+k5YAWsmSD6aP9TYmOZmv2w6HAZhimIjA7n4S/OGap25gj6pg==",
+                        "value": "yof+04zyPoVLEOv6L0Uhjw=="
+                    },
+                    "password": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "RXHs6kJXycjqAa7DI8g/NQ==",
+                        "sym_key": "g8bvhcS+948BbklqIoa+5rLgKJYAAeqIREFsEWs8T/MUUyN5vP+fUoTFk0hpbnSCgKnrIKFChEydTSaX+3BvlwwaZcGKEdyQBqC3TTPXmGBLHQ1HAbgVx1TrJAT0ejthjUAryYTsyrfneCtfn6yZHZDBIvlPTu7jISEwnv9qR7GjSLBgi+FkN5BhUoYtFocic9CU2QxxanuXL0RwRDfw4K6FFDA3g44k4jQWe4VnsxiE0huG4hnx70OQVRkNf4ghnU+lDcFLvJmHkbNVyx/AhyM38Hzj/iohMWbixD9uQ/WQ7Z9UB8DYk0qjFttHafP75sASSDJE9x+ajGNscTG8+Q==",
+                        "value": "/G0u3feC6SKAAwKQclwu1Q=="
+                    },
+                    "portNumber": {
+                        "value": 3306
+                    },
+                    "sshTunnelConfiguration": {
+                        "value": false
+                    },
+                    "sshhostname": {
+                        "value": null
+                    },
+                    "sshpassword": {
+                        "fp": "5537582b5408b627cd4dd4ff1c4b0ed40ea189ffc33ccf49e196ff6901dea522",
+                        "key": "account-cloud-managed-55aeb42a050186140d44b424-2015-07-21T21:05:51-432179",
+                        "sym_iv": "VjOrQ7Jd5K3hD6cOGXbK7A==",
+                        "sym_key": "YVI2hg/BFFnR1wVLWICBjYl8IDXuIvQmum1j0YP6k/0wROJemJEg/UZqtluKse0rK5eWq+L+XPADKwcUifLZgLvPT9Fw6VKOxpvBA0s7MUZDTwtBgZ5rmTTAAPEoP5v+YEzDDwVJca/DVfwF744exQoC8bCpGCgWEu1mTN6KQWszwVUA3xbRh/Jx87vgQV0hzOjZWYBMpMBrnBy7oOI5keA62u/WsYrNmeEgIwQEzJNdXeWYUM0SiDSdkCi44P+OFPKB/ybSMzD8FE6m6Urxe69/lotOC7wRg4LGdb7DaIHe9OVRP+PjC+58wrxOQZpD6e7OGQ0hKDtJtRWwow5d4w==",
+                        "value": "UyuCG3vBGZG5riM5DyO24w=="
+                    },
+                    "sshusername": {
+                        "value": null
+                    },
+                    "username": {
+                        "value": "sql7258279"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,126 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.grupocastilla.es/epsilonnetws" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://www.grupocastilla.es/epsilonnetws">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+Permite la comunicación y procesado de datos en el Buzón de Epsilon Nómina.
+</wsdl:documentation>
+<wsdl:types>
+<s:schema elementFormDefault="qualified" targetNamespace="http://www.grupocastilla.es/epsilonnetws">
+<s:element name="ComunicarYProcesarAcciones">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="sToken" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="sFicheroXML" type="s:string"/>
+<s:element minOccurs="1" maxOccurs="1" name="ejercicio" type="s:short"/>
+<s:element minOccurs="1" maxOccurs="1" name="mes" type="s:short"/>
+<s:element minOccurs="1" maxOccurs="1" name="acc" type="s:short"/>
+<s:element minOccurs="0" maxOccurs="1" name="XMLInformacion" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="ComunicarYProcesarAccionesResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="ComunicarYProcesarAccionesResult" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="XMLInformacion" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="GuardarDatosBuzon">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="sToken" type="s:string"/>
+<s:element minOccurs="0" maxOccurs="1" name="sFicheroXML" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="GuardarDatosBuzonResponse">
+<s:complexType>
+<s:sequence>
+<s:element minOccurs="0" maxOccurs="1" name="GuardarDatosBuzonResult" type="s:string"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+</s:schema>
+</wsdl:types>
+<wsdl:message name="ComunicarYProcesarAccionesSoapIn">
+<wsdl:part name="parameters" element="tns:ComunicarYProcesarAcciones"/>
+</wsdl:message>
+<wsdl:message name="ComunicarYProcesarAccionesSoapOut">
+<wsdl:part name="parameters" element="tns:ComunicarYProcesarAccionesResponse"/>
+</wsdl:message>
+<wsdl:message name="GuardarDatosBuzonSoapIn">
+<wsdl:part name="parameters" element="tns:GuardarDatosBuzon"/>
+</wsdl:message>
+<wsdl:message name="GuardarDatosBuzonSoapOut">
+<wsdl:part name="parameters" element="tns:GuardarDatosBuzonResponse"/>
+</wsdl:message>
+<wsdl:portType name="WSBuzonNominaSoap">
+<wsdl:operation name="ComunicarYProcesarAcciones">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+Permite la comunicación y procesado de datos en el Buzón de Epsilon Nómina. <br>string sFicheroXML: Xml que cumple el schema 'Schema BUZON.xsd' situado en epsilonnetws/schemas <br>short ejercicio: Ejercicio que identifica el periodo de vigencia de todos los datos a traspasar. <br>short mes: Mes que identifica el periodo de vigencia de todos los datos a traspasar. <br>string acc: Posibles valores de la acción: <br>1: Borrar todo --> Regeneración de todos los datos de la persona/trabajador para el ejercicio/mes. Inicialmente se realiza un borrado masivo y a continuación la inserción de los nuevos datos.<br> 2: Borrar informado --> Eliminación de los datos informados en el fichero xml. Se realizan las mismas comprobaciones que en el manteniminento de la aplicación. <br>4: Insertar --> Insertar nuevos datos sin realizar ningún borrado previo. Utilizado para añadir información de la persona/trabajador.<br>ref string XMLInformacion: Log con los códigos de los trabajadores
+</wsdl:documentation>
+<wsdl:input message="tns:ComunicarYProcesarAccionesSoapIn"/>
+<wsdl:output message="tns:ComunicarYProcesarAccionesSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="GuardarDatosBuzon">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+Añade datos en buzón de epsilon nómina.<br>string sFicheroXML: Xml que cumple el schema 'Schema BUZON.xsd' situado en epsilonnetws/schemas <br>
+</wsdl:documentation>
+<wsdl:input message="tns:GuardarDatosBuzonSoapIn"/>
+<wsdl:output message="tns:GuardarDatosBuzonSoapOut"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="WSBuzonNominaSoap" type="tns:WSBuzonNominaSoap">
+<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="ComunicarYProcesarAcciones">
+<soap:operation soapAction="http://www.grupocastilla.es/epsilonnetws/ComunicarYProcesarAcciones" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GuardarDatosBuzon">
+<soap:operation soapAction="http://www.grupocastilla.es/epsilonnetws/GuardarDatosBuzon" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:binding name="WSBuzonNominaSoap12" type="tns:WSBuzonNominaSoap">
+<soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="ComunicarYProcesarAcciones">
+<soap12:operation soapAction="http://www.grupocastilla.es/epsilonnetws/ComunicarYProcesarAcciones" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GuardarDatosBuzon">
+<soap12:operation soapAction="http://www.grupocastilla.es/epsilonnetws/GuardarDatosBuzon" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="WSBuzonNomina">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+Permite la comunicación y procesado de datos en el Buzón de Epsilon Nómina.
+</wsdl:documentation>
+<wsdl:port name="WSBuzonNominaSoap" binding="tns:WSBuzonNominaSoap">
+<soap:address location="http://217.130.254.197/epsilonnetws/WSBuzonNomina.asmx"/>
+</wsdl:port>
+<wsdl:port name="WSBuzonNominaSoap12" binding="tns:WSBuzonNominaSoap12">
+<soap12:address location="http://217.130.254.197/epsilonnetws/WSBuzonNomina.asmx"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

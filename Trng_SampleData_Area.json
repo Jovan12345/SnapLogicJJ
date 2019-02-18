@@ -1,0 +1,15 @@
+[
+  {
+    "action": "add",
+    "x": 54,
+    "y": 56
+  },
+  {
+    "action": "CircleArea",
+    "radius": 10
+  },
+  {
+    "action": "SquareofaNumber",
+    "radius": 33
+  }
+]

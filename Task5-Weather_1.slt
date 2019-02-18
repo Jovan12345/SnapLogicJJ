@@ -1,0 +1,22 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Task5-Weather_1",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_type": "regular",
+        "llfeed_token": "zdwVJ3mJoKZM2fg8yFYjui0eqtEWNVIG",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_path": null,
+        "snaplex_path": "DEV Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
