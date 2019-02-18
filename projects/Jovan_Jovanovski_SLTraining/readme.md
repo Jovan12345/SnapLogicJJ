@@ -1,0 +1,1 @@
+Jovan_Jovanovski_SLTraining project contents from snaplogic
